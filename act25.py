@@ -253,7 +253,7 @@ class ML:
             {
                 "criterion": ["gini", "entropy"],
                 "splitter":["best", "random"],
-                "class_weight":["balaced", None],
+                "class_weight":["balanced", None],
                 
             }
         ]
@@ -313,7 +313,7 @@ class ML:
         RFC_grid=[
             {
                 "criterion": ["gini", "entropy"],
-                "class_weight":["balaced", None],
+                "class_weight":["balanced", None],
                 "warm_start":[True,False],
                 
             }
@@ -457,7 +457,7 @@ class ML:
             {
                 "learning_rate":[0.1,0.5,1],
                 "n_estimators":[10,50,100],
-                "sub_sample":[0.8,1.0]
+                "subsample":[0.8,1.0]
                 # "max_depth":[3,5,7]
             }
         ]
